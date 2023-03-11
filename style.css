@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: red;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: antiquewhite;
+    
+}
+
+h2{
+
+    
+}
+
+
+.navbar ul{
+    display: flex;
+     list-style: none;
+     justify-content: flex-end;
+     gap:140px;
+     margin-left: 200px;
+     flex-direction: row;
+     
+    
+}
+.keyOne {
+    
+    cursor: pointer;
+    
+}
+li:hover{
+    background-color: rgb(131, 120, 120);
+    width: 100px;
+    height:40px
+}
+.main{
+    text-align: center;
+    margin-top: 100px;
+    background-color: antiquewhite;
+    height:300px
+}
